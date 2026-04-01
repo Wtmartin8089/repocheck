@@ -1,0 +1,19 @@
+[package]
+name = "repocheck"
+version = "0.1.0"
+edition = "2021"
+description = "Git repository health checker — stale branches, missing files, hardcoded secrets, and more"
+license = "MIT"
+authors = ["Wayne Martin <ghwinslow1700@hotmail.com>"]
+
+[[bin]]
+name = "repocheck"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+colored = "2"
+walkdir = "2"
+regex = "1"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
