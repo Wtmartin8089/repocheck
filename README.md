@@ -86,6 +86,12 @@ repocheck --json
 - name: Repo health check
   run: repocheck --failures-only --json
 ```
+## RepoCheck Pro (planned)
+
+The Pro version will include:
+- JSON output (--json)
+- Secret detection
+- Advanced checks
 
 ## License
 
