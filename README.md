@@ -1,5 +1,10 @@
 # repocheck
 
+🚀 RepoCheck Pro available
+
+Get the full version with advanced checks, secret detection, and JSON output:
+👉https://wayne-soft-hub.vercel.app/
+
 A fast, zero-dependency CLI tool that scans any git repository for common health problems — before they become bigger issues.
 
 ```
