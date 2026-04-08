@@ -41,6 +41,13 @@ repocheck — /home/wayne/myproject
 
 ## Install
 
+## RepoCheck Pro (planned)
+
+The Pro version will include:
+- JSON output (--json)
+- Secret detection
+- Advanced checks
+
 ### From Release (Linux x86_64)
 
 ```bash
@@ -86,12 +93,6 @@ repocheck --json
 - name: Repo health check
   run: repocheck --failures-only --json
 ```
-## RepoCheck Pro (planned)
-
-The Pro version will include:
-- JSON output (--json)
-- Secret detection
-- Advanced checks
 
 ## License
 
